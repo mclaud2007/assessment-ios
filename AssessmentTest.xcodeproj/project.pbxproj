@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07AE346E25B016EA00FEC6E5 /* EditViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE346D25B016EA00FEC6E5 /* EditViewRouter.swift */; };
+		07AE347725B019CC00FEC6E5 /* MainViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE347625B019CC00FEC6E5 /* MainViewRouter.swift */; };
+		07AE347B25B01A3100FEC6E5 /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE347A25B01A3100FEC6E5 /* MainViewPresenter.swift */; };
+		07AE347F25B01B1E00FEC6E5 /* MainViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE347E25B01B1E00FEC6E5 /* MainViewInteractor.swift */; };
+		07AE348925B01D9500FEC6E5 /* MainViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE348825B01D9500FEC6E5 /* MainViewBuilder.swift */; };
+		07AE348D25B022C500FEC6E5 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE348C25B022C500FEC6E5 /* AppManager.swift */; };
+		07AE349D25B0354C00FEC6E5 /* EditorViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE349C25B0354C00FEC6E5 /* EditorViewBuilder.swift */; };
+		07AE34A125B036CB00FEC6E5 /* EditorViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE34A025B036CB00FEC6E5 /* EditorViewPresenter.swift */; };
+		07AE34A525B0376500FEC6E5 /* EditorViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE34A425B0376500FEC6E5 /* EditorViewInteractor.swift */; };
+		07AE34AC25B04AFC00FEC6E5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE34AB25B04AFC00FEC6E5 /* NetworkService.swift */; };
+		07AE34B225B054FF00FEC6E5 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE34B125B054FF00FEC6E5 /* CoreDataService.swift */; };
 		193C17682527354200FB9DDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193C17672527354200FB9DDB /* AppDelegate.swift */; };
 		193C176A2527354200FB9DDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193C17692527354200FB9DDB /* SceneDelegate.swift */; };
 		193C176C2527354200FB9DDB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193C176B2527354200FB9DDB /* MainViewController.swift */; };
@@ -29,6 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07AE346D25B016EA00FEC6E5 /* EditViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewRouter.swift; sourceTree = "<group>"; };
+		07AE347625B019CC00FEC6E5 /* MainViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewRouter.swift; sourceTree = "<group>"; };
+		07AE347A25B01A3100FEC6E5 /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		07AE347E25B01B1E00FEC6E5 /* MainViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewInteractor.swift; sourceTree = "<group>"; };
+		07AE348825B01D9500FEC6E5 /* MainViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewBuilder.swift; sourceTree = "<group>"; };
+		07AE348C25B022C500FEC6E5 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		07AE349C25B0354C00FEC6E5 /* EditorViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewBuilder.swift; sourceTree = "<group>"; };
+		07AE34A025B036CB00FEC6E5 /* EditorViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewPresenter.swift; sourceTree = "<group>"; };
+		07AE34A425B0376500FEC6E5 /* EditorViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewInteractor.swift; sourceTree = "<group>"; };
+		07AE34AB25B04AFC00FEC6E5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		07AE34B125B054FF00FEC6E5 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		193C17642527354200FB9DDB /* AssessmentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssessmentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		193C17672527354200FB9DDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		193C17692527354200FB9DDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +84,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07AE346525B015D100FEC6E5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				193C17672527354200FB9DDB /* AppDelegate.swift */,
+				193C17692527354200FB9DDB /* SceneDelegate.swift */,
+				07AE348C25B022C500FEC6E5 /* AppManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		07AE346625B015EE00FEC6E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				193C176D2527354200FB9DDB /* Main.storyboard */,
+				193C17732527354400FB9DDB /* Assets.xcassets */,
+				193C17752527354400FB9DDB /* LaunchScreen.storyboard */,
+				193C17782527354400FB9DDB /* Info.plist */,
+				193C17702527354200FB9DDB /* AssessmentTest.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		07AE346B25B0168100FEC6E5 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				193C176B2527354200FB9DDB /* MainViewController.swift */,
+				07AE347E25B01B1E00FEC6E5 /* MainViewInteractor.swift */,
+				07AE347A25B01A3100FEC6E5 /* MainViewPresenter.swift */,
+				07AE347625B019CC00FEC6E5 /* MainViewRouter.swift */,
+				07AE348825B01D9500FEC6E5 /* MainViewBuilder.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		07AE346C25B0168C00FEC6E5 /* EditView */ = {
+			isa = PBXGroup;
+			children = (
+				193C178C25275B4C00FB9DDB /* EditViewController.swift */,
+				07AE34A425B0376500FEC6E5 /* EditorViewInteractor.swift */,
+				07AE34A025B036CB00FEC6E5 /* EditorViewPresenter.swift */,
+				07AE346D25B016EA00FEC6E5 /* EditViewRouter.swift */,
+				07AE349C25B0354C00FEC6E5 /* EditorViewBuilder.swift */,
+			);
+			path = EditView;
+			sourceTree = "<group>";
+		};
+		07AE34AA25B04AEE00FEC6E5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				07AE34AB25B04AFC00FEC6E5 /* NetworkService.swift */,
+				07AE34B125B054FF00FEC6E5 /* CoreDataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		193C175B2527354200FB9DDB = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +160,11 @@
 		193C17662527354200FB9DDB /* AssessmentTest */ = {
 			isa = PBXGroup;
 			children = (
-				193C17672527354200FB9DDB /* AppDelegate.swift */,
-				193C17692527354200FB9DDB /* SceneDelegate.swift */,
-				193C176B2527354200FB9DDB /* MainViewController.swift */,
-				193C178C25275B4C00FB9DDB /* EditViewController.swift */,
-				193C176D2527354200FB9DDB /* Main.storyboard */,
-				193C17732527354400FB9DDB /* Assets.xcassets */,
-				193C17752527354400FB9DDB /* LaunchScreen.storyboard */,
-				193C17782527354400FB9DDB /* Info.plist */,
-				193C17702527354200FB9DDB /* AssessmentTest.xcdatamodeld */,
+				07AE34AA25B04AEE00FEC6E5 /* Service */,
+				07AE346C25B0168C00FEC6E5 /* EditView */,
+				07AE346B25B0168100FEC6E5 /* MainView */,
+				07AE346525B015D100FEC6E5 /* Core */,
+				07AE346625B015EE00FEC6E5 /* Resources */,
 			);
 			path = AssessmentTest;
 			sourceTree = "<group>";
@@ -207,10 +280,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				193C178D25275B4C00FB9DDB /* EditViewController.swift in Sources */,
+				07AE346E25B016EA00FEC6E5 /* EditViewRouter.swift in Sources */,
+				07AE347B25B01A3100FEC6E5 /* MainViewPresenter.swift in Sources */,
+				07AE349D25B0354C00FEC6E5 /* EditorViewBuilder.swift in Sources */,
+				07AE34B225B054FF00FEC6E5 /* CoreDataService.swift in Sources */,
+				07AE34A525B0376500FEC6E5 /* EditorViewInteractor.swift in Sources */,
+				07AE348925B01D9500FEC6E5 /* MainViewBuilder.swift in Sources */,
 				193C176C2527354200FB9DDB /* MainViewController.swift in Sources */,
 				193C17722527354200FB9DDB /* AssessmentTest.xcdatamodeld in Sources */,
 				193C17682527354200FB9DDB /* AppDelegate.swift in Sources */,
+				07AE348D25B022C500FEC6E5 /* AppManager.swift in Sources */,
+				07AE34AC25B04AFC00FEC6E5 /* NetworkService.swift in Sources */,
+				07AE347725B019CC00FEC6E5 /* MainViewRouter.swift in Sources */,
+				07AE347F25B01B1E00FEC6E5 /* MainViewInteractor.swift in Sources */,
 				193C176A2527354200FB9DDB /* SceneDelegate.swift in Sources */,
+				07AE34A125B036CB00FEC6E5 /* EditorViewPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7TGQ574BP;
-				INFOPLIST_FILE = AssessmentTest/Info.plist;
+				INFOPLIST_FILE = AssessmentTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7TGQ574BP;
-				INFOPLIST_FILE = AssessmentTest/Info.plist;
+				INFOPLIST_FILE = AssessmentTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,7 +503,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = osinit.AssessmentTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssessmentTest.app/AssessmentTest";
 			};
 			name = Debug;
@@ -441,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = osinit.AssessmentTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssessmentTest.app/AssessmentTest";
 			};
 			name = Release;
